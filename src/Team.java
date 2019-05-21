@@ -10,7 +10,7 @@ public class Team {
     }
 
     public void info() {
-        System.out.println("--------------------");
+        System.out.println("---------------------");
         if (human.isCanGo()) System.out.println(human.getName() + " выполнил задания");
             else System.out.println(human.getName() + " не выполнил задания");
         if (cat.isCanGo()) System.out.println(cat.getName() + " выполнил задания");
